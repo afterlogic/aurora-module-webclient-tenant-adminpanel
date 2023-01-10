@@ -2,7 +2,7 @@
 
 module.exports = function (oAppData) {
 	var
-		$ = require('jquery'),
+		// $ = require('jquery'),
 
 		App = require('%PathToCoreWebclientModule%/js/App.js'),
 		
