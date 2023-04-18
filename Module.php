@@ -19,4 +19,22 @@ class Module extends \Aurora\System\Module\AbstractWebclientModule
     public function init()
     {
     }
+	
+    /**
+     *
+     * @return Module
+     */
+    public static function Decorator()
+    {
+        return parent::Decorator();
+    }
+
+    /**
+     *
+     * @return Settings
+     */
+    protected function GetModuleSettings()
+    {
+        return $this->oModuleSettings;
+    }
 }
