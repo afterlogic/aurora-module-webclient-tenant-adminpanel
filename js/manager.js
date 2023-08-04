@@ -2,8 +2,6 @@
 
 module.exports = function (oAppData) {
 	var
-		// $ = require('jquery'),
-
 		App = require('%PathToCoreWebclientModule%/js/App.js'),
 		
 		TextUtils = require('%PathToCoreWebclientModule%/js/utils/Text.js'),
