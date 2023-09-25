@@ -18,10 +18,8 @@ namespace Aurora\Modules\TenantAdminPanelWebclient;
  */
 class Module extends \Aurora\System\Module\AbstractWebclientModule
 {
-    public function init()
-    {
-    }
-	
+    public function init() {}
+
     /**
      * @return Module
      */
